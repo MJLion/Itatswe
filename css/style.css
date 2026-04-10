@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(231, 168, 50) !important;
+}
+
+#navbarColor02 a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarColor02 a:hover {
+    border-bottom: 2px solid orange;
+}
+
+#navbarColor02 button {
+    background: rgb(231, 168, 50);
+    width: 5rem;
+    border-radius: 15px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*HOME*/
+
+#home {
+    background-image: url('../Images/tamil-shutter-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home h1 {
+    font-size: 100px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc;
+    text-shadow: 0px 2px 0px #ccc;
+    text-shadow: 0px 3px 0px #ccc;
+    text-shadow: 0px 4px 0px #ccc;
+    text-shadow: 0px 5px 0px #ccc;
+    text-shadow: 0px 6px 0px #ccc;
+    text-shadow: 0px 7px 0px #ccc;
+}
+
+#home .input-group {
+    width: 45%;
+    height: 45px;
+}
+
+.signin {
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
+}
+
+
+/***About***/
+
+#about {
+    background: linear-gradient( rgb(234, 140, 25), rgb(51, 48, 0) 100%);
+}
+
+#about h1 {
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+
+#about p {
+    color: white;
+}
+
+.about-img {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+    justify-content: left;
+}
+
+.about-paragraph {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+/***Products***/
+
+#product {
+    background-color: #e5e5e5;
+}
+
+#product h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#product img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3), inset 4px 4px 10px white;
+    border-radius: 20px;
+    overflow: hidden !important;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3), inset -4px -4px -10px white;
+}
+
+/*Cart Modal*/
+
+
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .3);
+}
+
+.modal-header {
+    background-color: rgb(231, 168, 50);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+#cart-items {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* About Page */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* Text styling */
+#about h1 {
+    font-weight: 700;
+    color: black;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Image styling */
+.about-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Button styling */
+#about .btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+/* Optional spacing for smaller screens */
+@media (max-width: 768px) {
+    .text-section {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+footer {
+    width: 100%;
+}
+}
